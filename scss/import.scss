@@ -4,7 +4,7 @@
 @import "../node_modules/bootstrap/scss/mixins";
 
 $custom-theme-color:(
-        primary: #50A3D9,
+        primary: #000000,
 );
 $theme-colors:map-merge($theme-colors, $custom-theme-color);
 @import "../node_modules/bootstrap/scss/maps";
