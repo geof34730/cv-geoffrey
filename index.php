@@ -51,7 +51,8 @@ $printVersion=false;
         <?php }?>
 
         <div>
-            <h1>24 ans d'expérience</h1>
+            <h1 class="text-primary" style="color:#0F056B;text-transform: uppercase"><b>Flutter Full-Stack Developer</b></h1>
+
             <div  class="position-relative" style="font-size:40px;width:900px;height:440px;display:block;background-color: #0F056B;margin-bottom:40px;margin-top:10px; color:white;padding:10px;border-radius: 10px;border:solid 1px grey;">
                 <div style="line-height:1.4em;font-size:0.6em;left:30px;position:absolute;padding-top:15px;padding-right:10px;">
                     <i><b>Un parcours atypique ?</b></i>&nbsp;&nbsp;&nbsp;Ben oui...<br>&nbsp;<br>
@@ -60,15 +61,52 @@ $printVersion=false;
                     Besoin d'un nouveau challenge, apprendre de nouvelles choses (c'est mon ADN).<br>
                     J'ai découvert Flutter, je suis tombé sous le charme de l'oiseau, c'est vrai qu'il peut être un peu dur à dompter :), un peu volatile, mais j'adore ça..
                     <br>&nbsp;<br>
-                    Vous voulez connaître mon histoire ? Comprendre un peu mieux qui je suis ? Aller plus loin qu'une liste de compétences à rallonge ?  Alors <a href="https://geoffrey-petain.fr/storytelling.php" style="color:#ffffff;"><b>Cliquez-ici</b></a>.
+                    Vous voulez connaître mon histoire ? Comprendre un peu mieux qui je suis ? Aller plus loin qu'une liste de compétences à rallonge ?  <?php if ($printVersion){?>Alors RDV à cette adresse: https://geoffrey-petain.fr/storytelling.php<?php }else{?>Alors <a href="https://geoffrey-petain.fr/storytelling.php" style="color:#ffffff;"><b>Cliquez-ici</b></a><?php }?>.
                 </div>
                 <div style="position:absolute;right:-480px;top:50px">
                     <img src="img/pres.png" width="600">
                 </div>
             </div>
+            <div   style="margin-bottom: 16px">
 
+                <hr>
+                <h2 class="text-primary"><b><u>Compétences Techniques</u></b></h2>
+                <div style="font-size:16px;;margin-bottom:10px;">
+                    <span class="float-left" style="font-size:1.8em;">Javascript,</span>&nbsp;
+                    <span class="float-left " style="font-size:1.6em;">Node.Js,</span>&nbsp;
+                    <span class="float-left text-primary" style="font-size:2.0em;"><b>Flutter,</b></span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;"><b>localizations,</b></span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">ES6,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">ES5,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">jQuery,</span>&nbsp;
+                    <span class="float-left text-primary" style="font-size:2.0em;"><b>Dart,</b></span>&nbsp;
+                    <span class="float-left text-primary" style="font-size:1.5em;"><b>Dio,</b></span>&nbsp;
+                    <span class="float-left text-primary" style="font-size:1.8em;"><b>Freezed,</b></span>&nbsp;
+                    <span class="float-left text-primary" style="font-size:1.8em;"><b>Riverpod,</b></span>&nbsp;
+                    <span class="float-left" style="font-size:1.4em;"><b>Redux,</b></span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">PHP,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.7em;">CakePHP,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.5em;">Sass,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">Bootstrap,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.5em;">SCSS,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.3em;">Angular,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.3em;">AngularJs,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.4em;"><b>ReactJs,</b></span>&nbsp;
+                    <span class="float-left" style="font-size:1.4em;">TypeScript,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.8em;" >HTML,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.8em;" >CSS,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.4em;">Firebase,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">API REST,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.6em;">CRUD,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.8em;">Jquery,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.5em;">MySQL,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.5em;">Express,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.5em;">Sequelize,</span>&nbsp;
+                    <span class="float-left" style="font-size:1.4em;">Google Cloud</span>&nbsp;
+                </div> <hr style="margin-bottom:30px;">
+            </div>
             <div  class="position-relative" style="margin-bottom: 40px">
-                <h2 class="text-primary"><b>Entrepreneur</b></h2>
+                <h2 class="text-primary"><b>Concepteur / Flutter Full-Stack Developer</b></h2>
                 <div class="position-absolute" style="right:20px;top:54px;"><img src="img/icon.png" width="100"></div>
                 <h3><b>Vireg - Mars 2023</b></h3>
                 Création et développement d’une application de formation aux verbes<br>irréguliers en anglais. #Flutter
@@ -133,44 +171,7 @@ $printVersion=false;
             </div>
         </div>
 
-        <div   style="margin-bottom: 16px">
 
-            <hr>
-            <h2 class="text-primary"><b><u>Compétences Techniques</u></b></h2>
-            <div style="font-size:16px;">
-                <span class="float-left" style="font-size:1.8em;">Javascript,</span>&nbsp;
-                <span class="float-left " style="font-size:1.6em;">Node.Js,</span>&nbsp;
-                <span class="float-left text-primary" style="font-size:2.0em;"><b>Flutter,</b></span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;"><b>localizations,</b></span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">ES6,</span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">ES5,</span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">jQuery,</span>&nbsp;
-                <span class="float-left text-primary" style="font-size:2.0em;"><b>Dart,</b></span>&nbsp;
-                <span class="float-left text-primary" style="font-size:1.5em;"><b>Dio,</b></span>&nbsp;
-                <span class="float-left text-primary" style="font-size:1.8em;"><b>Freezed,</b></span>&nbsp;
-                <span class="float-left text-primary" style="font-size:1.8em;"><b>Riverpod,</b></span>&nbsp;
-                <span class="float-left" style="font-size:1.4em;"><b>Redux,</b></span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">PHP,</span>&nbsp;
-                <span class="float-left" style="font-size:1.7em;">CakePHP,</span>&nbsp;
-                <span class="float-left" style="font-size:1.5em;">Sass,</span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">Bootstrap,</span>&nbsp;
-                <span class="float-left" style="font-size:1.5em;">SCSS,</span>&nbsp;
-                <span class="float-left" style="font-size:1.3em;">Angular,</span>&nbsp;
-                <span class="float-left" style="font-size:1.3em;">AngularJs,</span>&nbsp;
-                <span class="float-left" style="font-size:1.4em;"><b>ReactJs,</b></span>&nbsp;
-                <span class="float-left" style="font-size:1.4em;">TypeScript,</span>&nbsp;
-                <span class="float-left" style="font-size:1.8em;" >HTML,</span>&nbsp;
-                <span class="float-left" style="font-size:1.8em;" >CSS,</span>&nbsp;
-                <span class="float-left" style="font-size:1.4em;">Firebase,</span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">API REST,</span>&nbsp;
-                <span class="float-left" style="font-size:1.6em;">CRUD,</span>&nbsp;
-                <span class="float-left" style="font-size:1.8em;">Jquery,</span>&nbsp;
-                <span class="float-left" style="font-size:1.5em;">MySQL,</span>&nbsp;
-                <span class="float-left" style="font-size:1.5em;">Express,</span>&nbsp;
-                <span class="float-left" style="font-size:1.5em;">Sequelize,</span>&nbsp;
-                <span class="float-left" style="font-size:1.4em;">Google Cloud</span>&nbsp;
-            </div>
-        </div>
         <div  style="margin-bottom: 16px">
             <hr style="margin-bottom: <?php if($printVersion){echo "130";}else{ echo "20";};?>px;" />
 
